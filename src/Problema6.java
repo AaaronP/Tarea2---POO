@@ -3,6 +3,8 @@ import java.util.Arrays;
 
 public class Problema6 {
     public static void main(String[] args) {
+        // deepToString imprimi la matriz de esta forma: [[1,2,3], [4,5,6]]
+        // similar al print de py
         System.out.println(Arrays.deepToString(nqueens(5).toArray()));
     }
 
